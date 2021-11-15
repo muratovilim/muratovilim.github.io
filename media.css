@@ -1,0 +1,389 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+    .hero-title {
+        font-size: 54px;
+    }
+    .hero_desc {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .scroll {
+        font-size: 15px;
+    }
+    .second_title {
+        font-size: 14px;
+        line-height: 20px;
+        color: #1a1e1f
+    }
+    .story_content {
+        padding-right: 50px;
+    }
+    .story_heading {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .story_info {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .story_heading span {
+        color: #05506e;
+    }
+    .we_plan {
+        padding: 14px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .we_manage {
+        padding: 14px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .we_build {
+        padding: 14px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .about_info_item {
+        height: 180px;
+    }
+    .capabilities {
+        margin-top: 90px;
+    }
+    .social {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .service_item_title {
+        text-transform: uppercase;
+        padding: 21px 0;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 740px;
+    }
+    /*.newsletter.container{*/
+    /*   margin: 0 auto;*/
+    /*}*/
+    .section_title {
+        font-size: 27px;
+        line-height: 25px;
+    }
+    .footer_links {
+        width: 50%;
+    }
+    .hero_desc {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .footer_address {
+        width: 100%;
+    }
+    .hero-title {
+        font-size: 40px;
+    }
+    .col_4 {
+        width: 50%;
+        padding-bottom: 30px;
+    }
+    .subtitle {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .subject {
+        font-size: 42px;
+    }
+    .footer_links {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .about-company {
+        max-width: 50%;
+        margin-top: 20px;
+    }
+    .desc {
+        font-size: 12px;
+    }
+    .info {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .story_heading {
+        font-size: 23px;
+        line-height: 22px;
+    }
+    .story_info {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .social {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .capabilities_item {
+        display: flex;
+        margin-left: 25px;
+    }
+    . .newsletter_caption{
+        padding: 15px 0;
+        text-align: center;
+    }
+    .service_item_title {
+        text-transform: uppercase;
+        padding: 21px 0;
+    }
+}
+@media (max-width: 768px) {
+    .col {
+        width: 100%;
+    }
+    .menu-btn.act{
+       position: fixed;
+        top:40px;
+        right: 40px;
+    }
+
+    .menu-btn.act span:before{
+        transform: rotate(45deg);
+        top:0;
+    }
+    .menu-btn.act span:after{
+        transform: rotate(-45deg);
+        top:0;
+    }
+    .menu-btn.act span{
+        background-color: transparent;
+    }
+    .header_menu{
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: -100%;
+        background-color: #222;
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        transition: .6s;
+    }
+    .header_menu.act{
+        left:0;
+    }
+    .menu-btn{
+        display: flex;
+        z-index: 2;
+    }
+    .section_title {
+        font-size: 26px;
+    }
+    .story_info {
+        margin-bottom: 35px;
+    }
+    .col_4 {
+        width: 100%;
+    }
+
+    .subtitle:before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 5px;
+        border-bottom: 2px solid #00A4E5;
+        color: red;
+        left: 0;
+        top: 30px;
+    }
+
+    .company_info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .story_info {
+        font-size: 13px;
+    }
+
+    .story_heading {
+        font-size: 19px;
+    }
+
+    .info {
+        margin-top: 35px;
+        padding: 0;
+    }
+
+    .footer_title {
+        font-size: 18px;
+    }
+
+
+    .footer_desc {
+        font-size: 15px;
+    }
+
+    .copyright_info {
+        font-size: 15px;
+    }
+
+    .footer_address {
+    }
+
+    .about-company {
+        width: 50%;
+        margin-top: 35px;
+
+    }
+
+    .newsletter_caption {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .newsletter {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .newsletter_form_input {
+        width: 100%;
+    }
+
+    .newsletter .btn {
+        margin: 0;
+    }
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .btn {
+        width: 70px;
+        margin: 15px;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 30px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .desc {
+        font-size: 20px;
+        line-height: 19px;
+        padding-top: 30px;
+    }
+
+    .capabilities_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top_info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_links {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .footer_address {
+        width: 50%;
+    }
+
+    .social {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .service_item_desc {
+        font-size: 18px;
+    }
+
+    .service_item_title {
+
+    }
+    .newsletter_caption{
+        padding: 15px 0;
+        text-align: center;
+    }
+    .footer_list_item {
+        font-size: 12px;
+    }
+
+    .get_in_touch .btn {
+        padding: 25px 0;
+        font-size: 15px;
+    }
+
+    .service_item_title {
+        text-transform: uppercase;
+        padding: 21px 0;
+    }
+
+    .subject {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 540px) {
+    .capabilities_item .btn {
+        margin-top: 48px;
+    }
+
+    .newsletter_form .btn {
+        padding: 11px 0;
+    }
+
+    .footer_title {
+        font-size: 18px;
+    }
+
+    .footer_address {
+        width: unset;
+    }
+
+    .subtitle:before {
+        top: 52px;
+    }
+
+    .capabilities_item {
+        display: unset;
+        margin-left: unset;
+    }
+
+    .hero_desc {
+        padding-top: 10px;
+    }
+
+    .hero-title {
+        line-height: 42px;
+    }
+
+    .service_item_title {
+        text-transform: uppercase;
+        padding: 21px 0;
+    }
+}
+
+
+
+
+
+
+
+
